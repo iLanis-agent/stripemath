@@ -1,0 +1,921 @@
+{
+ "cases": [
+  {
+   "fn": "stalls",
+   "args": [
+    "120",
+    "9"
+   ],
+   "expect": "A row of 120 ft with stalls 9 ft wide fits 13 stalls, leaving 3 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "130",
+    "18",
+    "24"
+   ],
+   "expect": "Two rows of 18 ft stalls and a 24 ft aisle make a 60 ft bay, and a lot 130 ft deep fits 2 bays, leaving 10 ft."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "13",
+    "18"
+   ],
+   "expect": "The 13 stalls in a row take 14 lines of 18 ft, 252 ft of paint line."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "1500",
+    "4",
+    "300",
+    "45"
+   ],
+   "expect": "The 1500 ft of line at 4 inches wide covers 500 sq ft, takes 2 gallons at 300 sq ft a gallon, and costs $90.00."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "43422",
+    "3"
+   ],
+   "expect": "A row of 43422 ft with stalls 3 ft wide fits 14474 stalls, leaving 0 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "69625",
+    "27"
+   ],
+   "expect": "A row of 69625 ft with stalls 27 ft wide fits 2578 stalls, leaving 19 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "89192",
+    "9"
+   ],
+   "expect": "A row of 89192 ft with stalls 9 ft wide fits 9910 stalls, leaving 2 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "66993",
+    "25"
+   ],
+   "expect": "A row of 66993 ft with stalls 25 ft wide fits 2679 stalls, leaving 18 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "65271",
+    "22"
+   ],
+   "expect": "A row of 65271 ft with stalls 22 ft wide fits 2966 stalls, leaving 19 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "70084",
+    "14"
+   ],
+   "expect": "A row of 70084 ft with stalls 14 ft wide fits 5006 stalls, leaving 0 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "97119",
+    "27"
+   ],
+   "expect": "A row of 97119 ft with stalls 27 ft wide fits 3597 stalls, leaving 0 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "95192",
+    "1"
+   ],
+   "expect": "A row of 95192 ft with stalls 1 ft wide fits 95192 stalls, leaving 0 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "54434",
+    "21"
+   ],
+   "expect": "A row of 54434 ft with stalls 21 ft wide fits 2592 stalls, leaving 2 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "62306",
+    "22"
+   ],
+   "expect": "A row of 62306 ft with stalls 22 ft wide fits 2832 stalls, leaving 2 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "29083",
+    "26"
+   ],
+   "expect": "A row of 29083 ft with stalls 26 ft wide fits 1118 stalls, leaving 15 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "36350",
+    "28"
+   ],
+   "expect": "A row of 36350 ft with stalls 28 ft wide fits 1298 stalls, leaving 6 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "22929",
+    "8"
+   ],
+   "expect": "A row of 22929 ft with stalls 8 ft wide fits 2866 stalls, leaving 1 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "23156",
+    "19"
+   ],
+   "expect": "A row of 23156 ft with stalls 19 ft wide fits 1218 stalls, leaving 14 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "88834",
+    "26"
+   ],
+   "expect": "A row of 88834 ft with stalls 26 ft wide fits 3416 stalls, leaving 18 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "11031",
+    "26"
+   ],
+   "expect": "A row of 11031 ft with stalls 26 ft wide fits 424 stalls, leaving 7 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "24147",
+    "15"
+   ],
+   "expect": "A row of 24147 ft with stalls 15 ft wide fits 1609 stalls, leaving 12 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "24566",
+    "29"
+   ],
+   "expect": "A row of 24566 ft with stalls 29 ft wide fits 847 stalls, leaving 3 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "61502",
+    "1"
+   ],
+   "expect": "A row of 61502 ft with stalls 1 ft wide fits 61502 stalls, leaving 0 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "45501",
+    "27"
+   ],
+   "expect": "A row of 45501 ft with stalls 27 ft wide fits 1685 stalls, leaving 6 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "10436",
+    "12"
+   ],
+   "expect": "A row of 10436 ft with stalls 12 ft wide fits 869 stalls, leaving 8 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "62942",
+    "20"
+   ],
+   "expect": "A row of 62942 ft with stalls 20 ft wide fits 3147 stalls, leaving 2 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "52211",
+    "28"
+   ],
+   "expect": "A row of 52211 ft with stalls 28 ft wide fits 1864 stalls, leaving 19 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "34078",
+    "24"
+   ],
+   "expect": "A row of 34078 ft with stalls 24 ft wide fits 1419 stalls, leaving 22 ft."
+  },
+  {
+   "fn": "stalls",
+   "args": [
+    "41128",
+    "8"
+   ],
+   "expect": "A row of 41128 ft with stalls 8 ft wide fits 5141 stalls, leaving 0 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "38333",
+    "27",
+    "54"
+   ],
+   "expect": "Two rows of 27 ft stalls and a 54 ft aisle make a 108 ft bay, and a lot 38333 ft deep fits 354 bays, leaving 101 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "85387",
+    "9",
+    "20"
+   ],
+   "expect": "Two rows of 9 ft stalls and a 20 ft aisle make a 38 ft bay, and a lot 85387 ft deep fits 2247 bays, leaving 1 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "2087",
+    "21",
+    "5"
+   ],
+   "expect": "Two rows of 21 ft stalls and a 5 ft aisle make a 47 ft bay, and a lot 2087 ft deep fits 44 bays, leaving 19 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "31443",
+    "18",
+    "81"
+   ],
+   "expect": "Two rows of 18 ft stalls and a 81 ft aisle make a 117 ft bay, and a lot 31443 ft deep fits 268 bays, leaving 87 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "43347",
+    "34",
+    "58"
+   ],
+   "expect": "Two rows of 34 ft stalls and a 58 ft aisle make a 126 ft bay, and a lot 43347 ft deep fits 344 bays, leaving 3 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "56855",
+    "14",
+    "99"
+   ],
+   "expect": "Two rows of 14 ft stalls and a 99 ft aisle make a 127 ft bay, and a lot 56855 ft deep fits 447 bays, leaving 86 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "37712",
+    "60",
+    "8"
+   ],
+   "expect": "Two rows of 60 ft stalls and a 8 ft aisle make a 128 ft bay, and a lot 37712 ft deep fits 294 bays, leaving 80 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "23376",
+    "37",
+    "21"
+   ],
+   "expect": "Two rows of 37 ft stalls and a 21 ft aisle make a 95 ft bay, and a lot 23376 ft deep fits 246 bays, leaving 6 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "24791",
+    "15",
+    "34"
+   ],
+   "expect": "Two rows of 15 ft stalls and a 34 ft aisle make a 64 ft bay, and a lot 24791 ft deep fits 387 bays, leaving 23 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "67092",
+    "30",
+    "86"
+   ],
+   "expect": "Two rows of 30 ft stalls and a 86 ft aisle make a 146 ft bay, and a lot 67092 ft deep fits 459 bays, leaving 78 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "5745",
+    "13",
+    "81"
+   ],
+   "expect": "Two rows of 13 ft stalls and a 81 ft aisle make a 107 ft bay, and a lot 5745 ft deep fits 53 bays, leaving 74 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "58269",
+    "19",
+    "6"
+   ],
+   "expect": "Two rows of 19 ft stalls and a 6 ft aisle make a 44 ft bay, and a lot 58269 ft deep fits 1324 bays, leaving 13 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "95174",
+    "46",
+    "12"
+   ],
+   "expect": "Two rows of 46 ft stalls and a 12 ft aisle make a 104 ft bay, and a lot 95174 ft deep fits 915 bays, leaving 14 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "72429",
+    "14",
+    "4"
+   ],
+   "expect": "Two rows of 14 ft stalls and a 4 ft aisle make a 32 ft bay, and a lot 72429 ft deep fits 2263 bays, leaving 13 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "11075",
+    "20",
+    "19"
+   ],
+   "expect": "Two rows of 20 ft stalls and a 19 ft aisle make a 59 ft bay, and a lot 11075 ft deep fits 187 bays, leaving 42 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "82146",
+    "40",
+    "63"
+   ],
+   "expect": "Two rows of 40 ft stalls and a 63 ft aisle make a 143 ft bay, and a lot 82146 ft deep fits 574 bays, leaving 64 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "26173",
+    "9",
+    "79"
+   ],
+   "expect": "Two rows of 9 ft stalls and a 79 ft aisle make a 97 ft bay, and a lot 26173 ft deep fits 269 bays, leaving 80 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "18047",
+    "37",
+    "37"
+   ],
+   "expect": "Two rows of 37 ft stalls and a 37 ft aisle make a 111 ft bay, and a lot 18047 ft deep fits 162 bays, leaving 65 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "97365",
+    "41",
+    "73"
+   ],
+   "expect": "Two rows of 41 ft stalls and a 73 ft aisle make a 155 ft bay, and a lot 97365 ft deep fits 628 bays, leaving 25 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "24796",
+    "20",
+    "11"
+   ],
+   "expect": "Two rows of 20 ft stalls and a 11 ft aisle make a 51 ft bay, and a lot 24796 ft deep fits 486 bays, leaving 10 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "29681",
+    "14",
+    "49"
+   ],
+   "expect": "Two rows of 14 ft stalls and a 49 ft aisle make a 77 ft bay, and a lot 29681 ft deep fits 385 bays, leaving 36 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "92335",
+    "41",
+    "40"
+   ],
+   "expect": "Two rows of 41 ft stalls and a 40 ft aisle make a 122 ft bay, and a lot 92335 ft deep fits 756 bays, leaving 103 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "80465",
+    "46",
+    "17"
+   ],
+   "expect": "Two rows of 46 ft stalls and a 17 ft aisle make a 109 ft bay, and a lot 80465 ft deep fits 738 bays, leaving 23 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "9236",
+    "13",
+    "6"
+   ],
+   "expect": "Two rows of 13 ft stalls and a 6 ft aisle make a 32 ft bay, and a lot 9236 ft deep fits 288 bays, leaving 20 ft."
+  },
+  {
+   "fn": "bay",
+   "args": [
+    "79132",
+    "13",
+    "43"
+   ],
+   "expect": "Two rows of 13 ft stalls and a 43 ft aisle make a 69 ft bay, and a lot 79132 ft deep fits 1146 bays, leaving 58 ft."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "10653",
+    "15"
+   ],
+   "expect": "The 10653 stalls in a row take 10654 lines of 15 ft, 159810 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "43406",
+    "18"
+   ],
+   "expect": "The 43406 stalls in a row take 43407 lines of 18 ft, 781326 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "27914",
+    "25"
+   ],
+   "expect": "The 27914 stalls in a row take 27915 lines of 25 ft, 697875 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "62456",
+    "11"
+   ],
+   "expect": "The 62456 stalls in a row take 62457 lines of 11 ft, 687027 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "93987",
+    "52"
+   ],
+   "expect": "The 93987 stalls in a row take 93988 lines of 52 ft, 4887376 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "61964",
+    "42"
+   ],
+   "expect": "The 61964 stalls in a row take 61965 lines of 42 ft, 2602530 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "56109",
+    "44"
+   ],
+   "expect": "The 56109 stalls in a row take 56110 lines of 44 ft, 2468840 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "16193",
+    "25"
+   ],
+   "expect": "The 16193 stalls in a row take 16194 lines of 25 ft, 404850 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "6377",
+    "21"
+   ],
+   "expect": "The 6377 stalls in a row take 6378 lines of 21 ft, 133938 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "86542",
+    "19"
+   ],
+   "expect": "The 86542 stalls in a row take 86543 lines of 19 ft, 1644317 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "49211",
+    "11"
+   ],
+   "expect": "The 49211 stalls in a row take 49212 lines of 11 ft, 541332 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "57310",
+    "50"
+   ],
+   "expect": "The 57310 stalls in a row take 57311 lines of 50 ft, 2865550 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "71395",
+    "44"
+   ],
+   "expect": "The 71395 stalls in a row take 71396 lines of 44 ft, 3141424 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "3285",
+    "38"
+   ],
+   "expect": "The 3285 stalls in a row take 3286 lines of 38 ft, 124868 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "93293",
+    "48"
+   ],
+   "expect": "The 93293 stalls in a row take 93294 lines of 48 ft, 4478112 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "95574",
+    "19"
+   ],
+   "expect": "The 95574 stalls in a row take 95575 lines of 19 ft, 1815925 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "58001",
+    "29"
+   ],
+   "expect": "The 58001 stalls in a row take 58002 lines of 29 ft, 1682058 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "37896",
+    "43"
+   ],
+   "expect": "The 37896 stalls in a row take 37897 lines of 43 ft, 1629571 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "97497",
+    "32"
+   ],
+   "expect": "The 97497 stalls in a row take 97498 lines of 32 ft, 3119936 ft of paint line."
+  },
+  {
+   "fn": "line",
+   "args": [
+    "20745",
+    "59"
+   ],
+   "expect": "The 20745 stalls in a row take 20746 lines of 59 ft, 1224014 ft of paint line."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "37108",
+    "48",
+    "4078",
+    "6292.7"
+   ],
+   "expect": "The 37108 ft of line at 48 inches wide covers 148432 sq ft, takes 37 gallons at 4078 sq ft a gallon, and costs $232829.90."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "70796",
+    "41",
+    "6626",
+    "3805.97"
+   ],
+   "expect": "The 70796 ft of line at 41 inches wide covers 241886.33 sq ft, takes 37 gallons at 6626 sq ft a gallon, and costs $140820.89."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "97527",
+    "15",
+    "1163",
+    "743.61"
+   ],
+   "expect": "The 97527 ft of line at 15 inches wide covers 121908.75 sq ft, takes 105 gallons at 1163 sq ft a gallon, and costs $78079.05."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "34370",
+    "3",
+    "1062",
+    "8255.08"
+   ],
+   "expect": "The 34370 ft of line at 3 inches wide covers 8592.5 sq ft, takes 9 gallons at 1062 sq ft a gallon, and costs $74295.72."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "18889",
+    "35",
+    "7595",
+    "1997.47"
+   ],
+   "expect": "The 18889 ft of line at 35 inches wide covers 55092.92 sq ft, takes 8 gallons at 7595 sq ft a gallon, and costs $15979.76."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "68203",
+    "2",
+    "5211",
+    "5142.94"
+   ],
+   "expect": "The 68203 ft of line at 2 inches wide covers 11367.17 sq ft, takes 3 gallons at 5211 sq ft a gallon, and costs $15428.82."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "84169",
+    "32",
+    "7519",
+    "1818.84"
+   ],
+   "expect": "The 84169 ft of line at 32 inches wide covers 224450.67 sq ft, takes 30 gallons at 7519 sq ft a gallon, and costs $54565.20."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "1223",
+    "42",
+    "2982",
+    "3846.47"
+   ],
+   "expect": "The 1223 ft of line at 42 inches wide covers 4280.5 sq ft, takes 2 gallons at 2982 sq ft a gallon, and costs $7692.94."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "79884",
+    "25",
+    "7844",
+    "8271.7"
+   ],
+   "expect": "The 79884 ft of line at 25 inches wide covers 166425 sq ft, takes 22 gallons at 7844 sq ft a gallon, and costs $181977.40."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "71084",
+    "35",
+    "6886",
+    "5295.23"
+   ],
+   "expect": "The 71084 ft of line at 35 inches wide covers 207328.33 sq ft, takes 31 gallons at 6886 sq ft a gallon, and costs $164152.13."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "16638",
+    "35",
+    "9328",
+    "9384.39"
+   ],
+   "expect": "The 16638 ft of line at 35 inches wide covers 48527.5 sq ft, takes 6 gallons at 9328 sq ft a gallon, and costs $56306.34."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "58566",
+    "5",
+    "507",
+    "5377.24"
+   ],
+   "expect": "The 58566 ft of line at 5 inches wide covers 24402.5 sq ft, takes 49 gallons at 507 sq ft a gallon, and costs $263484.76."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "57618",
+    "37",
+    "8120",
+    "9886.89"
+   ],
+   "expect": "The 57618 ft of line at 37 inches wide covers 177655.5 sq ft, takes 22 gallons at 8120 sq ft a gallon, and costs $217511.58."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "57337",
+    "25",
+    "4537",
+    "1724.77"
+   ],
+   "expect": "The 57337 ft of line at 25 inches wide covers 119452.08 sq ft, takes 27 gallons at 4537 sq ft a gallon, and costs $46568.79."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "22597",
+    "34",
+    "8966",
+    "4656.12"
+   ],
+   "expect": "The 22597 ft of line at 34 inches wide covers 64024.83 sq ft, takes 8 gallons at 8966 sq ft a gallon, and costs $37248.96."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "5561",
+    "46",
+    "8453",
+    "2679.84"
+   ],
+   "expect": "The 5561 ft of line at 46 inches wide covers 21317.17 sq ft, takes 3 gallons at 8453 sq ft a gallon, and costs $8039.52."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "34274",
+    "41",
+    "4041",
+    "8516.98"
+   ],
+   "expect": "The 34274 ft of line at 41 inches wide covers 117102.83 sq ft, takes 29 gallons at 4041 sq ft a gallon, and costs $246992.42."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "85546",
+    "37",
+    "6223",
+    "3691.07"
+   ],
+   "expect": "The 85546 ft of line at 37 inches wide covers 263766.83 sq ft, takes 43 gallons at 6223 sq ft a gallon, and costs $158716.01."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "14581",
+    "32",
+    "7158",
+    "8212.04"
+   ],
+   "expect": "The 14581 ft of line at 32 inches wide covers 38882.67 sq ft, takes 6 gallons at 7158 sq ft a gallon, and costs $49272.24."
+  },
+  {
+   "fn": "paint",
+   "args": [
+    "98141",
+    "41",
+    "3313",
+    "7083.9"
+   ],
+   "expect": "The 98141 ft of line at 41 inches wide covers 335315.08 sq ft, takes 102 gallons at 3313 sq ft a gallon, and costs $722557.80."
+  }
+ ],
+ "errors": [
+  [
+   "stalls",
+   [
+    "0",
+    "9"
+   ]
+  ],
+  [
+   "stalls",
+   [
+    "120",
+    "0"
+   ]
+  ],
+  [
+   "stalls",
+   [
+    "120",
+    "31"
+   ]
+  ],
+  [
+   "bay",
+   [
+    "130",
+    "0",
+    "24"
+   ]
+  ],
+  [
+   "bay",
+   [
+    "130",
+    "18",
+    "0"
+   ]
+  ],
+  [
+   "bay",
+   [
+    "130",
+    "18",
+    "101"
+   ]
+  ],
+  [
+   "line",
+   [
+    "0",
+    "18"
+   ]
+  ],
+  [
+   "line",
+   [
+    "13",
+    "0"
+   ]
+  ],
+  [
+   "paint",
+   [
+    "0",
+    "4",
+    "300",
+    "45"
+   ]
+  ],
+  [
+   "paint",
+   [
+    "1500",
+    "0",
+    "300",
+    "45"
+   ]
+  ],
+  [
+   "paint",
+   [
+    "1500",
+    "4",
+    "0",
+    "45"
+   ]
+  ],
+  [
+   "paint",
+   [
+    "1500",
+    "4",
+    "300",
+    "0"
+   ]
+  ]
+ ]
+}
